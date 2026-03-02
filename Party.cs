@@ -3,8 +3,8 @@ public class Party
 {
     public Person[] Guests = new Person[]
     {
-        new Person("Jane", "Smith"),
         new Person("John", "Doe"),
+        new Person("Jane", "Smith"),
         new Person("Bob", "Johnson")
     };
 }
@@ -20,4 +20,5 @@ public class Person
         LastName = lastName
     }
 }
+
 
